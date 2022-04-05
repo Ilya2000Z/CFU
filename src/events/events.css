@@ -1,0 +1,82 @@
+.wrapperreg {
+    width: 100%;
+    background-image: url("img/murilo-gomes-zsBMbgw9Xh0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 5s;
+}
+
+.wrapperregbg {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 18%, rgba(0, 0, 0, 0.7539390756302521) 50%);
+    height: 100%;
+}
+
+.wrapperreg:hover {
+    width: 100%;
+    background-image: url("img/murilo-gomes-zsBMbgw9Xh0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0%);
+}
+.butset {
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+}
+
+.butset:hover {
+    box-shadow: 0px 0px 10px 10px #5f326a;
+}
+@media screen and (min-width: 375px) and (max-width:475px) {
+    .regtitle {
+        text-transform: uppercase;
+        font-size: 20px !important;
+        padding-top: 100px;
+        font-family: 'Comfortaa', cursive;
+        color: #ffffff;
+    }
+}
+.regtitle {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+}
+.regsubtitle {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 100px;
+    color: #ffcc00;
+    font-family: 'Comfortaa', cursive;
+}
+.yellowline {
+    background-color: #a38200;
+    width: 100%;
+}
+.regmenu {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+}
+.regtext {
+    font-size: 30px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+}
+.impmarg{
+    margin-bottom: 0px !important;
+}
+

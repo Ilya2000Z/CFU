@@ -1,0 +1,1561 @@
+/* .TextSlider{
+    background-color: rgb(230, 228, 228);
+    color: rgb(53, 52, 52);
+    flex: 0 0 auto;
+    width: 25%;
+    margin-bottom: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.TextSecond{
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    background-color: rgb(230, 228, 228);
+    color: rgb(53, 52, 52);
+    margin-bottom: 250px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.textStyle{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.creativ{
+    position: relative;
+    margin-left: 20px;
+    border-radius: 30px;
+    border-top: solid #4E80C1;
+    border-right: solid #4E80C1;
+    border-bottom: solid #4E80C1;
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight; 
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes slideRight {
+    0% {
+        transform: translateX(-150%);
+    }
+           
+    100% {
+        transform: translateX(0%);
+    }   
+}
+ 
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(-150%);
+    }
+    50%{
+        -webkit-transform: translateX(8%);
+    }
+    65%{
+        -webkit-transform: translateX(-4%);
+    }
+    80%{
+        -webkit-transform: translateX(4%);
+    }
+    95%{
+        -webkit-transform: translateX(-2%);
+    }           
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+.animate{
+    position: relative;
+    margin-right: 20px;
+    border-radius: 30px;
+    border-top: solid #4E80C1;
+    border-left: solid #4E80C1;
+    border-bottom: solid #4E80C1;
+    animation-name: slideleft;
+    -webkit-animation-name: slideleft; 
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes slideleft {
+    0% {
+        transform: translateX(150%);
+    }
+         
+    100% {
+        transform: translateX(0%);
+    }   
+}
+ 
+
+
+
+
+.pageCard{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.Photo{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: dimgray;
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 20px;
+}
+.ColLg3{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.textname {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+
+}
+.textContent{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+.col3{
+    flex: 0 0 auto;
+    width: 30.3333333333%;
+} */
+body {
+    /* background-color: red; */
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url("img/yuyeung-lau-dp9Jrww_BRs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100% !important;
+}
+
+.wrapperbg {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(160deg, rgba(0, 0, 0, 0.7147233893557423) 21%, rgba(0, 0, 0, 0) 56%);
+    height: 100%;
+}
+
+.title1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 200px;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+}
+
+.title2 {
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+}
+
+.title3 {
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.titleblock {
+    width: 400px;
+}
+
+.titleblocktext {
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.cite {
+    font-weight: 700;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.image {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.image:hover {
+    width: 100%;
+    filter: grayscale(0%);
+}
+
+.targettitle {
+    color: #3e3a37;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center !important
+}
+
+.targetsubtitle {
+    color: #a38200;
+    font-family: 'Comfortaa', cursive;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center !important
+}
+.centreCont{
+    text-align: center !important
+}
+
+.targetsubtitletext {
+    color: #3e3a37;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    line-height: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center !important
+}
+
+.imgarrow {
+    width: 40px;
+    text-align: center !important
+}
+
+.targettext {
+    color: #a38200;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center !important
+}
+
+.imgtarget {
+    width: 60px
+}
+
+.targetmenu {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center !important
+}
+
+.strategysubtitle {
+    color: #3e3a37;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.strategytext {
+    font-size: 15px;
+}
+
+.imgstrategy {
+    width: 70px;
+}
+
+.strategysubtext {
+    color: #3e3a37;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center !important
+}
+
+.wrapper2 {
+    width: 100%;
+    height: 937px;
+    background-image: url("img/brett-jordan-5L0R8ZqPZHk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 1200px;
+    border-top-right-radius: 1200px;
+    box-shadow: 0px 0px 10px 10px #9390892a;
+}
+
+.bground {
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 68%, rgba(255, 255, 255, 0.7959558823529411) 79%);
+    border-top-left-radius: 1200px;
+    border-top-right-radius: 1200px;
+}
+
+.round {
+    width: 220px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 4px #939089;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.padset {
+    padding-top: 350px;
+}
+
+.padset2 {
+    padding-top: 150px;
+}
+
+.roundtext {
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+}
+
+.titleround {
+    color: #1d1d1d;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+   
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.wrapper3 {
+    width: 100%;
+    height: 937px;
+    background-image: url("img/alena-stepanova-VHA7v5nHxLo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    clip-path: polygon(0 2%, 100% 0, 100% 50%, 100% 85%, 0 100%, 0% 50%);
+}
+
+.bgwrapper3 {
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(139deg, rgba(0, 0, 0, 0.6054796918767507) 0%, rgba(255, 255, 255, 0.808) 41%);
+}
+
+.imgpartner {
+    width: 300px;
+}
+
+.imgpartnerset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners {
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.mset {
+    padding-top: 100px;
+}
+
+.wrapper4 {
+    width: 100%;
+    height: 937px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.cardtitle {
+    padding-top: 100px;
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.cardsubtitle {
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.cardsubtext {
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.textcard {
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 450px;
+    opacity: 0;
+    transition: 1s;
+}
+.pd5{
+    padding-top: 3rem!important;
+}
+.subtextcard {
+    color: #000000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 450px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.cardblock {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectcard {
+    width: 450px;
+    height: 700px;
+    box-shadow: 0px 0px 1px 1px grey;
+    background-image: url('img/zoltan-tasi-eS1omi9_W58-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    transition: 4s;
+    filter: grayscale(100%);
+}
+
+.imgincard {
+    width: 400px;
+    position: absolute;
+    right: -10px;
+    top: -150px;
+    z-index: 0;
+    transition: 2s;
+    opacity: 0;
+}
+.cardset{
+    position: relative;
+    padding-right: 20px;
+}
+.cardset:hover .projectcard {
+    border-top-right-radius: 1500px;
+    filter: grayscale(0%);
+}
+
+.cardset:hover .imgincard {
+    opacity: 1;
+}
+
+.cardset:hover .textcard {
+    opacity: 1;
+}
+
+.cardset:hover .subtextcard {
+    opacity: 1;
+}
+.footer{
+    margin-top:500px;
+}
+@media screen and (min-width: 767px){
+    .wrapper2Mob{
+        display: none;
+    }
+    .wraper4Mob{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .test{
+        display: none;
+    }
+    .wrapper2 {
+        display: none;
+    }
+    .wrapper4{
+        display: none;
+    }
+}
+@media screen and (min-width: 375px) and (max-width:475px) {
+    .cardblock{
+        display: none;
+    }
+    .imgincard {
+        width: 400px;
+        position: absolute;
+        right: -10px;
+        top: -150px;
+        z-index: 0;
+        transition: 2s;
+        opacity: 0;
+    }
+    .wrapper {
+        width: 100%;
+        height:100% !important;
+        background-image: url("img/yuyeung-lau-dp9Jrww_BRs-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100% !important;
+    }
+    .title1 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 26px;
+        padding-top: 30px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title2 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 26px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title3 {
+        display: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .footer{
+        margin-top:0px!important
+    }
+    .targettitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targettext {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitle {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .image {
+        width: 0% !important;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+    .strategysubtitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .targetmenu {
+        font-family: 'Comfortaa', cursive;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitletext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 11px;
+        line-height: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .strategysubtext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center !important
+    }
+    .student{
+        margin-left: 30px;
+    }
+    .textContainer{
+        margin-left: 20px;
+    }
+   
+    .wrapper2Mob{
+        width: 100%;
+        height: 100%;
+        background-image: url("img/brett-jordan-5L0R8ZqPZHk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 1200px;
+        border-top-right-radius: 1200px;
+        box-shadow: 0px 0px 10px 10px #9390892a;
+    }
+    li {
+        list-style-type: none; /* Убираем маркеры */
+       }
+    .bauble{
+        opacity: 0.8;
+        margin-top: 10px;
+        background-color: rgb(185, 184, 184);
+        padding: 5px;
+        border-radius: 10px;
+        border: solid rgb(59, 59, 59);
+    }
+    .buablecenter{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .textbauble{
+        font-weight: normal;
+        font-size: 25px;
+    }
+    .cardtitle{
+        padding-top: 100px;
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .cardsubtitle {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .cardsubtext {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .imgincardMob{
+        flex: 0 0 auto;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+}
+@media screen and (min-width: 476px) and (max-width:767px) {
+
+    .cardblock{
+        display: none;
+    }
+    .imgincard {
+        width: 400px;
+        position: absolute;
+        right: -10px;
+        top: -150px;
+        z-index: 0;
+        transition: 2s;
+        opacity: 0;
+    }
+    .wrapper {
+        width: 100%;
+        height:100% !important;
+        background-image: url("img/yuyeung-lau-dp9Jrww_BRs-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100% !important;
+    }
+    .title1 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 26px;
+        padding-top: 30px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title2 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 26px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title3 {
+        display: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .footer{
+        margin-top:0px!important
+    }
+    .targettitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targettext {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitle {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .image {
+        width: 0% !important;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+    .strategysubtitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .targetmenu {
+        font-family: 'Comfortaa', cursive;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitletext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 11px;
+        line-height: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .strategysubtext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center !important
+    }
+    .student{
+        margin-left: 30px;
+    }
+    .textContainer{
+        margin-left: 20px;
+    }
+   
+    .wrapper2Mob{
+        width: 100%;
+        height: 100%;
+        background-image: url("img/brett-jordan-5L0R8ZqPZHk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 1200px;
+        border-top-right-radius: 1200px;
+        box-shadow: 0px 0px 10px 10px #9390892a;
+    }
+    li {
+        list-style-type: none; /* Убираем маркеры */
+       }
+    .bauble{
+        opacity: 0.8;
+        margin-top: 10px;
+        background-color: rgb(185, 184, 184);
+        padding: 5px;
+        border-radius: 10px;
+        border: solid rgb(59, 59, 59);
+    }
+    .buablecenter{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .textbauble{
+        font-weight: normal;
+        font-size: 25px;
+    }
+    .cardtitle{
+        padding-top: 100px;
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .cardsubtitle {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .cardsubtext {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .imgincardMob{
+        flex: 0 0 auto;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+
+    .titleblocktext {
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .wrapper {
+        width: 100%;
+        height: auto;
+        background-image: url("img/yuyeung-lau-dp9Jrww_BRs-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100% !important;
+    }
+    .roundtext {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+    }
+    .cardblock {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    .title1 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-top: 30px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title2 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title3 {
+        display: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    .subtitle {
+        font-weight: 700;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+        font-size: 15px;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+    .footer{
+        margin-top:250px!important
+    }
+    .targettitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targettext {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitle {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .image {
+        width: 0% !important;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+    .strategysubtitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .targetmenu {
+        font-family: 'Comfortaa', cursive;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitletext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 9px;
+        line-height: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .strategysubtext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 8px;
+        text-align: center !important
+    }
+    .student{
+        margin-left: 30px;
+    }
+    .textContainer{
+        margin-left: 20px;
+    }
+   
+    .wrapper2Mob{
+        width: 100%;
+        height: 100%;
+        background-image: url("img/brett-jordan-5L0R8ZqPZHk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 1200px;
+        border-top-right-radius: 1200px;
+        box-shadow: 0px 0px 10px 10px #9390892a;
+    }
+    li {
+        list-style-type: none; /* Убираем маркеры */
+       }
+    .bauble{
+        opacity: 0.8;
+        margin-top: 10px;
+        background-color: rgb(185, 184, 184);
+        padding: 5px;
+        border-radius: 10px;
+        border: solid rgb(59, 59, 59);
+    }
+    .buablecenter{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .textbauble{
+        font-weight: normal;
+        font-size: 25px;
+    }
+    .cardtitle{
+        padding-top: 100px;
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .sponsor {
+       padding-left: 70px;
+    }
+    .cardsubtitle {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .wrapper4{
+        display: none;
+    }
+    .wraper4Mob{
+        display:inline-block;
+    }
+    .round {
+        width: 110px;
+        height: 110px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 4px 4px #939089;
+        border-radius: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .roundtext {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        font-size: 8px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:374px) {
+    .wrapper {
+        width: 100%;
+        height:100% !important;
+        background-image: url("img/yuyeung-lau-dp9Jrww_BRs-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100% !important;
+    }
+    .title1 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-top: 30px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title2 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title3 {
+        display: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .footer{
+        margin-top:0px!important
+    }
+    .targettitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targettext {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitle {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .image {
+        width: 0% !important;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+    .strategysubtitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .targetmenu {
+        font-family: 'Comfortaa', cursive;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitletext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 9px;
+        line-height: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .strategysubtext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 8px;
+        text-align: center !important
+    }
+    .student{
+        margin-left: 30px;
+    }
+    .textContainer{
+        margin-left: 20px;
+    }
+   
+    .wrapper2Mob{
+        width: 100%;
+        height: 100%;
+        background-image: url("img/brett-jordan-5L0R8ZqPZHk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 1200px;
+        border-top-right-radius: 1200px;
+        box-shadow: 0px 0px 10px 10px #9390892a;
+    }
+    li {
+        list-style-type: none; /* Убираем маркеры */
+       }
+    .bauble{
+        opacity: 0.8;
+        margin-top: 10px;
+        background-color: rgb(185, 184, 184);
+        padding: 5px;
+        border-radius: 10px;
+        border: solid rgb(59, 59, 59);
+    }
+    .buablecenter{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .textbauble{
+        font-weight: normal;
+        font-size: 25px;
+    }
+    .cardtitle{
+        padding-top: 100px;
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .sponsor {
+       padding-left: 70px;
+    }
+    .cardsubtitle {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .cardsubtext {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .projectcardMob {
+        flex: 0 0 auto;
+        width: 100%;
+        box-shadow: 0px 0px 1px 1px grey;
+        background-image: url('img/zoltan-tasi-eS1omi9_W58-unsplash.jpg');
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        transition: 4s;
+        filter: grayscale(100%);
+        border-top-right-radius: 1500px;
+       
+    }
+    .imgincardMob{
+        flex: 0 0 auto;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+   
+}
+
+@media screen and (min-width: 1023px) and (max-width:1439px) {
+    .round {
+        width: 140px;
+        height: 140px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 4px 4px #939089;
+        border-radius: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .wrapper {
+        width: 100%;
+        height: auto;
+        background-image: url("img/yuyeung-lau-dp9Jrww_BRs-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100% !important;
+    }
+    .roundtext {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+    }
+    .cardblock {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    .title1 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-top: 30px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title2 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .title3 {
+        display: none;
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+    }
+    .subtitle {
+        font-weight: 700;
+        color: #f2f2f2;
+        font-family: 'Comfortaa', cursive;
+        font-size: 15px;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+    .footer{
+        margin-top:250px!important
+    }
+    .targettitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targettext {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitle {
+        color: #a38200;
+        font-family: 'Comfortaa', cursive;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .image {
+        width: 100% !important;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+    .strategysubtitle {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .targetmenu {
+        font-family: 'Comfortaa', cursive;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .targetsubtitletext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        font-size: 9px;
+        line-height: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center !important
+    }
+    .strategysubtext {
+        color: #3e3a37;
+        font-family: 'Comfortaa', cursive;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 8px;
+        text-align: center !important
+    }
+    .student{
+        margin-left: 30px;
+    }
+    .textContainer{
+        margin-left: 20px;
+    }
+   
+    .wrapper2Mob{
+        width: 100%;
+        height: 100%;
+        background-image: url("img/brett-jordan-5L0R8ZqPZHk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 1200px;
+        border-top-right-radius: 1200px;
+        box-shadow: 0px 0px 10px 10px #9390892a;
+    }
+    li {
+        list-style-type: none; /* Убираем маркеры */
+       }
+    .bauble{
+        opacity: 0.8;
+        margin-top: 10px;
+        background-color: rgb(185, 184, 184);
+        padding: 5px;
+        border-radius: 10px;
+        border: solid rgb(59, 59, 59);
+    }
+    .buablecenter{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .textbauble{
+        font-weight: normal;
+        font-size: 25px;
+    }
+    .cardtitle{
+        padding-top: 100px;
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .sponsor {
+       padding-left: 70px;
+    }
+    .cardsubtitle {
+        color: #000000;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+
+
+/* акатцула */
+
+
+
+.wrapperreg {
+    width: 100%;
+    background-image: url("../events/img/murilo-gomes-zsBMbgw9Xh0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 5s;
+}
+
+.wrapperregbg {
+    background: rgb(0, 0, 0);
+    background-image: url("../events/img/murilo-gomes-zsBMbgw9Xh0-unsplash.jpg");
+    /* background: radial-gradient(circle, rgba(0, 0, 0, 0) 18%, rgba(0, 0, 0, 0.7539390756302521) 50%); */
+    height: 100%;
+}
+
+.wrapperreg:hover {
+    width: 100%;
+    background-image: url("../events/img/murilo-gomes-zsBMbgw9Xh0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0%);
+}
+.butset {
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+}
+
+.butset:hover {
+    box-shadow: 0px 0px 10px 10px #5f326a;
+}
+@media screen and (min-width: 375px) and (max-width:475px) {
+    .regtitle {
+        text-transform: uppercase;
+        font-size: 20px !important;
+        padding-top: 100px;
+        font-family: 'Comfortaa', cursive;
+        color: #ffffff;
+    }
+}
+.regtitle {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+}
+.regsubtitle {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 100px;
+    color: #ffcc00;
+    font-family: 'Comfortaa', cursive;
+}
+.yellowline {
+    background-color: #a38200;
+    width: 100%;
+}
+.regmenu {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #f2f2f2;
+    font-family: 'Comfortaa', cursive;
+}
+.regtext {
+    font-size: 30px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+}
+.impmarg{
+    margin-bottom: 0px !important;
+}
+.regbtnFirst{
+    background-color: #ffcc00;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid white;
+  
+}
+.btnfirst2{
+    display: block;
+    margin: 0 auto;
+}
+.centralfirst{
+   display: flex;
+}
+.regbtnFirst:hover {
+    box-shadow: 0px 0px 10px 10px #5f326a;
+}
